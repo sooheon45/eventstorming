@@ -198,3 +198,12 @@ print("policy: {{name}}");
 | aggregate         | 자신이 속해있는 Aggregate 정보  |
 | eventToPolicy     | Policy가 Event를 전달받는 방식 |
 | relationEventInfo | 연결된 Event에 대한 정보       |
+
+#### View 변수
+
+| 변수명               | 변수 역할                  |
+| ----------------- | ---------------------- |
+| aggregate         | 자신이 속해있는 Aggregate 정보  |
+| dataProjection    | view 데이터 방식 변수 |
+| viewFieldDescriptors | 데이터 방식에 대한 테이블 정보|
+| aggregateEvents   | 자신이 속해있는 Aggregate의 Events 정보 |
